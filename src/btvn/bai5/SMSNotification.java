@@ -1,0 +1,9 @@
+package btvn.bai5;
+
+import java.util.Scanner;
+
+public class SMSNotification implements NotificationService{
+    public void send(String message, Customer customer) {
+        System.out.println("Đã gửi SMS xác nhận");
+    }
+}

@@ -1,0 +1,10 @@
+package btvn.bai6;
+
+import java.util.Scanner;
+
+public class WebsiteDiscount implements DiscountStrategy{
+    public double applyDiscount(double total) {
+        System.out.println("Áp dụng giảm giá 10% cho đơn hàng website");
+        return total * 0.1;
+    }
+}
